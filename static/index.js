@@ -37,7 +37,7 @@ function uploadAudio() {
     layer.open({
         type: 3
     })
-    recorder.upload("https://api.sillywa.com/api/", function (state, e) {
+    recorder.upload("https://api.sillywa.com/api/recognition/", function (state, e) {
         switch (state) {
             case 'uploading':
                 var percentComplete = Math.round(e.loaded * 100 / e.total) + '%';
