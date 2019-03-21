@@ -46,3 +46,7 @@ var geoCood = [
 
 ### 兼容性
 兼容 Chrome 和火狐，不支持IE浏览器
+
+### 源码
+
+[点击查看源码](https://github.com/Sillywa/speech-recognition)
